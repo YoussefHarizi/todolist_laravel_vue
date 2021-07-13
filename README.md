@@ -31,6 +31,10 @@ php artisan key:generate
 Run ``` npm install && npm run dev ``` to install all front end dependencies
 Run ``` npm run watch ``` to build vue 
 # Screenshots
+<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/tree/main/public/images/capture1.jpg" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
+<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/tree/main/public/images/capture2.jpg" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
+<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/tree/main/public/images/capture3.jpg" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
+<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/tree/main/public/images/capture4.jpg" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
 
 
 
