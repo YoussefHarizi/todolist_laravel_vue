@@ -31,10 +31,10 @@ php artisan key:generate
 Run ``` npm install && npm run dev ``` to install all front end dependencies
 Run ``` npm run watch ``` to build vue 
 # Screenshots
-<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/tree/main/public/images/Capture1.JPG" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
-<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/tree/main/public/images/Capture2.JPG" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
-<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/tree/main/public/images/Capture3.JPG" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
-<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/tree/main/public/images/Capture4.JPG" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
+<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/blob/develop/public/images/Capture1.JPG" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
+<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/blob/develop/public/images/Capture2.JPG" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
+<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/blob/develop/public/images/Capture3.JPG" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
+<p align="center"><img src="https://github.com/YoussefHarizi/todolist_laravel_vue/blob/develop/public/images/Capture4.JPG" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
 
 
 
