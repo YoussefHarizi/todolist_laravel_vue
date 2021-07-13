@@ -1915,6 +1915,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -1922,7 +1941,7 @@ __webpack_require__.r(__webpack_exports__);
       todos: '',
       form: new Form({
         name: '',
-        user_id: document.querySelector("meta[name='user-id']").getAttribute('content')
+        user_id: ''
       }),
       iduser: document.querySelector("meta[name='user-id']").getAttribute('content')
     };
@@ -1946,7 +1965,7 @@ __webpack_require__.r(__webpack_exports__);
       var data = new FormData();
       data.append('_method', 'PATCH');
       data.append('name', e.name);
-      data.append('user_id', e.iduser);
+      data.append('user_id', this.iduser);
       axios.post('/api/todo/' + e.id, data)["catch"](function (error) {
         _this2.form.errors.record(error.response.data.errors);
       });
@@ -2256,10 +2275,12 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
+ //*****  gestion des erreurs formulaires
 
 
+window.Form = _Form__WEBPACK_IMPORTED_MODULE_0__.default; // ****** component registration
 
-window.Form = _Form__WEBPACK_IMPORTED_MODULE_0__.default;
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -37880,7 +37901,7 @@ var render = function() {
                   _vm._v(" "),
                   _c(
                     "div",
-                    { staticClass: "w-100 todo" },
+                    { staticClass: "todo" },
                     _vm._l(_vm.todos, function(todo) {
                       return _c(
                         "div",
@@ -37987,6 +38008,7 @@ var render = function() {
                                       expression: "todo.name"
                                     }
                                   ],
+                                  staticClass: "form-control",
                                   attrs: { type: "text" },
                                   domProps: { value: todo.name },
                                   on: {
@@ -38191,6 +38213,18 @@ var render = function() {
                                       ]
                                     )
                                   : _vm._e()
+                              ]),
+                              _vm._v(" "),
+                              _c("span", [
+                                _c("img", {
+                                  staticStyle: { width: "30px" },
+                                  attrs: {
+                                    src: "images/user_icon_2.svg",
+                                    alt: ""
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _c("span", [_vm._v(_vm._s(todo.user.name))])
                               ])
                             ]
                           )

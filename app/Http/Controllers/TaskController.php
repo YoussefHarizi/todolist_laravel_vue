@@ -15,7 +15,7 @@ class TaskController extends Controller
      */
     public function index()
     {
-        return Task::latest()->get();
+        return Task::latest()->with('User')->get();
     }
 
     /**
