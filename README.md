@@ -10,8 +10,8 @@ Then cd into the folder with this command-
 ```sh
 cd todolist_laravel_vue
 ```
-##with docker
-Then if you use docker run :
+## with docker
+run :
 ```sh
 docker run --rm \
     -u "$(id -u):$(id -g)" \
@@ -50,8 +50,8 @@ generate application key, which will be used for password hashing, session and c
 ```sh
 ./vendor/bin/sail artisan key:generate
 ```
-##without docker
-Then do a composer install
+## without docker
+do a composer install
 ```sh
 composer install
 ```
